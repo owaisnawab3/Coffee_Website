@@ -1,0 +1,224 @@
+@media (max-width: 1058px) {
+    header{
+        padding: 16px 60px;
+    }
+
+    .home{
+        padding: 50px 60px;
+    }
+
+    .home-left h1{
+        font-size: 3rem;
+    }
+
+    .home-right img{
+        width: 500px;
+    }
+
+    .about{
+        padding: 0px 60px;
+    }
+
+    .about-left img{
+        width: 500px;
+    }
+
+    .about-right h1{
+        font-size: 1.8rem;
+    }
+
+    .about-right p{
+        font-size: 14px;
+    }
+
+    .about-right a{
+        font-size: 15px;
+        padding: 8px 20px;
+    }
+
+    .product{
+        padding: 20px 60px;
+    }
+
+    .customer-container{
+        gap: 1rem;
+        padding: 0px 10px;
+    }
+
+    .row{
+     padding: 0 60px;
+    }    
+
+}
+
+@media (max-width: 991px) {
+    .about{
+        padding: 10px 30px 0;
+    }
+    .about-right h1{
+        font-size: 2rem;
+    }
+
+    .about-right p{
+        font-size: 17px;
+    }
+
+    .home-section img{
+        width: 100%
+    }
+}
+
+@media (max-width: 768px) {
+   
+    header{
+        padding: 0 30px;
+    }
+
+    .about-left img{
+        width: 400px;
+    }
+
+    .about-right h1{
+        font-size: 1.3rem;
+    } 
+
+    .about-right p{
+        font-size: 12px;
+    }
+
+    .home-section img{
+        width: 100%
+    }
+    
+    header{
+        overflow: initial;
+    }
+
+    nav{
+       position: absolute;
+       background-color: #bc9667;
+       left: -100%;
+       top: 100%;
+       width: 100%;
+       padding-block: 20px;
+    }
+    
+    nav.active{
+        left: 0;
+    }
+
+    nav ul{
+     flex-direction: column;
+    }
+
+    .didi{
+        font-size: 1.4rem;
+        display: block;
+        color: #fff;
+    }
+}
+
+@media (max-width: 360px) {
+      
+   header{
+   padding: 0 20px;
+   }
+
+   .home-section{
+    width: 100%;
+   }
+
+    .home{
+      padding: 0px 30px;
+      flex-wrap: wrap;
+      height: 900px;
+      width: 100%;
+    }
+
+   .home-right img{
+    padding-bottom: 12rem;
+    width: 320px;
+   }
+
+    .home-left h1{
+        padding-top: 4rem;
+        font-size: 2rem;
+    }
+
+    .home-left p{
+        font-size: 15px;
+    }
+
+    .home-left a{
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+
+    .home-section img{
+        width: 100%
+    }
+    
+    nav{
+        display: none;
+    }
+
+    .didi{
+        display: block;
+        color: #fff;
+    }
+/* header{
+    background: rebeccapurple;
+} */
+
+.about-left img{
+    width: 160px;
+    height: 150px;
+}
+
+.about-right h1{
+    font-size: 10px;
+} 
+
+.about-right p{
+    font-size: 5px;
+    margin-bottom: 0;
+}
+
+.about-right a{
+    font-size: 5px;
+    padding: 5px 10px;
+}
+
+.about{
+    margin-bottom: 0;
+}
+
+.products-section{
+    margin-top: 0;
+}
+
+.product .heading h1{
+    font-size: 1rem;
+}
+
+.heading{
+    margin-top: 0;
+}
+
+.product-box img{
+    width: 220px;
+}
+
+.product-box h3{
+    font-size: 1rem;
+}
+
+.product-box span{
+   padding: 5px 10px;
+}
+
+.customer-section h1{
+    font-size: 1.4rem;
+}
+
+}
